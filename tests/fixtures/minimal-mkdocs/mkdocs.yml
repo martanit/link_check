@@ -1,0 +1,10 @@
+site_name: Minimal Test Site
+site_url: http://localhost:8080/
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Page 1: page1.md
+  - Page 2: page2.md
