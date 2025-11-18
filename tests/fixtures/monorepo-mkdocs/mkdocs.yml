@@ -1,0 +1,14 @@
+site_name: Monorepo Test Site
+site_url: http://localhost:8080/
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - monorepo
+
+# Note: monorepo plugin has issues with root-level pages, so only use included subsites
+nav:
+  - Subsite 1: '!include ./subsite1/mkdocs.yml'
+  - Subsite 2: '!include ./subsite2/mkdocs.yml'
