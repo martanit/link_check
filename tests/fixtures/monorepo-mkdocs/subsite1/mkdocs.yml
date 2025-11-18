@@ -1,0 +1,8 @@
+site_name: Subsite 1
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Features: features.md

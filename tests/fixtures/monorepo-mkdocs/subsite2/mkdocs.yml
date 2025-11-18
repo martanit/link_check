@@ -1,0 +1,8 @@
+site_name: Subsite 2
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Guide: guide.md
