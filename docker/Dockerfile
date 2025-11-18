@@ -6,8 +6,8 @@ FROM python:3.11-slim
 LABEL maintainer="link-check"
 LABEL description="MkDocs documentation builder with nginx server"
 
-# Update package manager
+# Update package manager and install nginx
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        # Will add nginx and other packages in subsequent tasks
+        nginx \
     && rm -rf /var/lib/apt/lists/*
